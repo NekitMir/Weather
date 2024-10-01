@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+    <main class="weather">
+
+        <form action="" class="form" id="form">
+            <input type="text" class="form__input" placeholder="Search city name">
+            <button class="form__button">
+                <img src="./imgs/ui/search.svg" alt="search" width="24" height="24">
+            </button>
+        </form>
+
+
+        <div class="weather__info">
+<!--            <img src="./imgs/weather/weather.svg" alt="weather" class="weather__img">-->
+            <img src="./imgs/weather/sun.svg" alt="weather" class="weather__img">
+            <div class="weather__temp">22°С</div>
+            <div class="weather__city">Orel</div>
+        </div>
+
+
+        <section class="weather__details">
+            <section class="details">
+                <img src="./imgs/ui/humidity.svg" alt="" class="details__img">
+                <div class="details__value" id="humidity">50%</div>
+                <div class="details__title">Humidity</div>
+            </section>
+
+            <section class="details">
+                <img src="./imgs/ui/wind-speed.svg" alt="" class="details__img">
+                <div class="details__value" id="speed">10 km/h</div>
+                <div class="details__title">Wind Speed</div>
+            </section>
+        </section>
+    </main>
+
+
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
